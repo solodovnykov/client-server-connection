@@ -1,9 +1,9 @@
-import LongPolling from "./LongPolling";
+import EventSourcing from "./EventSourcing";
 
 function App() {
   return (
     <>
-      <LongPolling />
+      <EventSourcing />
     </>
   );
 }
