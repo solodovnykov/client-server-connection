@@ -1,9 +1,9 @@
-import EventSourcing from "./EventSourcing";
+import WebSocket from "./WebSocket";
 
 function App() {
   return (
     <>
-      <EventSourcing />
+      <WebSocket />
     </>
   );
 }

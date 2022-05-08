@@ -49,10 +49,17 @@ body {
       flex-direction: column;
       gap: 10px;
 
-      .message {
-        background-color: rgb(209, 209, 209);
-        padding: 10px 20px;
-        border-radius: 10px;
+      .messageWrapper {
+        .message {
+          background-color: rgb(209, 209, 209);
+          padding: 10px 20px;
+          border-radius: 10px;
+        }
+        .connectionMessage {
+          background-color: rgb(212 243 213);
+          padding: 10px 20px;
+          border-radius: 10px;
+        }
       }
     }
   }
